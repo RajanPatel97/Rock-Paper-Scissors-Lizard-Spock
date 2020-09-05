@@ -75,7 +75,7 @@ function displayComputerChoice() {
   switch (computerChoice) {
     case 'rock':
       computerRock.classList.add('selected');
-      computerChoiceEl.textContent = ' --- rock';
+      computerChoiceEl.textContent = ' --- Rock';
       break;
     case 'paper':
       computerPaper.classList.add('selected');
@@ -132,7 +132,7 @@ function select(playerChoice) {
   switch (playerChoice) {
     case 'rock':
       playerRock.classList.add('selected');
-      playerChoiceEl.textContent = ' --- rock';
+      playerChoiceEl.textContent = ' --- Rock';
       break;
     case 'paper':
       playerPaper.classList.add('selected');
